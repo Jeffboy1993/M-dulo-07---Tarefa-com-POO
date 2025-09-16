@@ -9,7 +9,7 @@ class Parquimetro {
     ];
   }
 
-// Metódos //
+// Método //
   calcularTempoETroco() {
     if (this.valor < 1.00) {
       return { mensagem: "Valor insuficiente", tempo: 0, troco: 0 };
